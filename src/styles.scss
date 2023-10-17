@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+main {
+    padding: 150px;
+    min-height: calc(100vh - 228.64px);
+}
+
+.transition {
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        transition: all 0.2s ease-in-out;
+    }
+}
